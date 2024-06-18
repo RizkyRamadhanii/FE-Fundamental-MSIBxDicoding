@@ -1,6 +1,6 @@
-const path = require('path')
-const autoprefixer = require('autoprefixer')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path');
+const autoprefixer = require('autoprefixer');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -15,45 +15,36 @@ module.exports = {
     hot: true
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' })
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: 'index.html'
+    })
   ],
   module: {
     rules: [
-      
       {
         test: /\.(scss)$/,
         use: [
-          {loader: 'style-loader'},
-          { loader: 'css-loader'},
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
           {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
-                plugins: () => [
-                  autoprefixer
-                ]
+                plugins: () => [autoprefixer]
               }
             }
-          },          
-          {
-            loader: 'sass-loader'
-        }
+          },
+          { loader: 'sass-loader' }
         ]
       },
       {
         test: /\.css$/,
         use: [
-          {loader: 'style-loader'},
-          { loader: 'css-loader'}
+          { loader: 'style-loader' },
+          { loader: 'css-loader' }
         ]
-      },
+      }
     ]
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-      filename: 'index.html'
-    })
-  ]
-  
-}
+  }
+};
