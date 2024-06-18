@@ -8,7 +8,7 @@ class Header extends HTMLElement {
         `
         <nav class="navbar bg-body-tertiary">
         <div class="container-fluid p-2">    
-          <span class="navbar-brand mb-0 h1 text-white">Movie Indonesia</span>
+          <span class="navbar-brand mb-0 h1 text-white">List Movie</span>
         </div>
       </nav>
         `
