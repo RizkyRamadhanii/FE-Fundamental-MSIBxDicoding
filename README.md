@@ -1,6 +1,6 @@
 # List Movie
 
-List Movie adalah aplikasi web untuk mengelola daftar film yang ingin ditonton, sedang ditonton, dan sudah ditonton. Proyek ini dikembangkan oleh Mohammad Rizky Ramadhani. Ini merupakan Submission akhir dari kursus ["Belajar Membuat Aplikasi Back-End untuk Pemula"](https://www.dicoding.com/academies/163) dari Dicoding Academy.
+List Movie adalah aplikasi web untuk mengelola daftar film yang ingin ditonton, sedang ditonton, dan sudah ditonton. Proyek ini dikembangkan oleh Mohammad Rizky Ramadhani. Ini merupakan Submission akhir dari kursus ["Belajar Fundamental Front-End Web Development"](https://www.dicoding.com/academies/163) dari Dicoding Academy.
 
 ## Daftar Isi
 
