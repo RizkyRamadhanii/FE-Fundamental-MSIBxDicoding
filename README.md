@@ -9,7 +9,6 @@ List Movie adalah aplikasi web untuk mengelola daftar film yang ingin ditonton, 
 - [Teknologi](#teknologi)
 - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
-- [Berkontribusi](#berkontribusi)
 - [Kontak](#kontak)
 
 ## Pendahuluan
@@ -55,16 +54,6 @@ List Movie adalah aplikasi web sederhana yang memungkinkan pengguna untuk meliha
 ## Penggunaan
 
 1. Pada halaman utama, tampilkan data semua film yang ada di MovieDB, yaitu film yang sedang rilis terbaru.
-
-## Berkontribusi
-
-Kontribusi sangat dihargai! Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah berikut:
-
-1. Fork repository ini.
-2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`).
-3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`).
-4. Push ke branch (`git push origin feature/AmazingFeature`).
-5. Buat Pull Request.
 
 ## Kontak
 
